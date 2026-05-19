@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: 22
           cache: 'pnpm'
-      - run: pnpm install
+      - run: pnpm install --ignore-scripts
       - run: pnpm run build
       - uses: actions/upload-pages-artifact@v3
         with:

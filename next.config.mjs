@@ -2,6 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
+  output: 'export',
+  basePath: '/ARRIVE',
+  images: { unoptimized: true },
 };
 
 export default nextConfig;

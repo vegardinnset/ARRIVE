@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm dev *)",
+      "Bash(npx next *)",
+      "Bash(npm install *)",
+      "Bash(sudo npm install -g pnpm)",
+      "Bash(curl -fsSL https://get.pnpm.io/install.sh)",
+      "Bash(sh -)",
+      "Bash(export PNPM_HOME=\"/Users/vegard/Library/pnpm\")",
+      "Bash(export PATH=\"$PNPM_HOME/bin:$PATH\")",
+      "Bash(rm -rf node_modules)",
+      "Bash(pnpm install *)",
+      "Bash(pnpm approve-builds *)"
+    ]
+  }
+}
